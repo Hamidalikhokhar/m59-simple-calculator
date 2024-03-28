@@ -13,7 +13,6 @@ const asnwer = await inquirer.prompt([
   },
 ]);
 
-// conditional statement
 if (asnwer.operator === "Addition") {
     console.log(asnwer.firstNumber + asnwer.secondNumber);
 } else if (asnwer.operator === "Subtraction") {
